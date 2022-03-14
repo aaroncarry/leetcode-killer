@@ -1,5 +1,6 @@
 package `remove-nth-node-from-end-of-list`
 
+import ListNode
 import org.junit.Test
 
 /**
