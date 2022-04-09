@@ -1,5 +1,6 @@
 package sort
 
+import org.junit.Assert
 import org.junit.Test
 
 class TestSort {
@@ -7,22 +8,28 @@ class TestSort {
 
     @Test
     fun testSelection() {
-        val temp = arr.clone()
-        SelectionSort.sort(temp)
-        println(temp.joinToString(","))
+        repeat(5) {
+            val array1 = Logarithm.generateRandomArray(50, 50)
+            val array2 = array1.clone()
+            Assert.assertTrue(array2.sort() == SelectionSort.sort(array1))
+        }
     }
 
     @Test
     fun testBubble() {
-        val temp = arr.clone()
-        BubbleSort.sort(temp)
-        println(temp.joinToString(","))
+        repeat(5) {
+            val array1 = Logarithm.generateRandomArray(50, 50)
+            val array2 = array1.clone()
+            Assert.assertTrue(array2.sort() == BubbleSort.sort(array1))
+        }
     }
 
     @Test
     fun testInsertion() {
-        val temp = arr.clone()
-        InsertionSort.sort(temp)
-        println(temp.joinToString(","))
+        repeat(5) {
+            val array1 = Logarithm.generateRandomArray(50, 50)
+            val array2 = array1.clone()
+            Assert.assertTrue(array2.sort() == InsertionSort.sort(array1))
+        }
     }
 }
