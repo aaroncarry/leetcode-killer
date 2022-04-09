@@ -15,7 +15,7 @@ class TestSort {
     @Test
     fun testBubble() {
         val temp = arr.clone()
-        SelectionSort.sort(temp)
+        BubbleSort.sort(temp)
         println(temp.joinToString(","))
     }
 }
