@@ -1,4 +1,4 @@
-package `cong-wei-dao-tou-da-yin-lian-biao-lcof`
+package leetcode.`cong-wei-dao-tou-da-yin-lian-biao-lcof`
 
 import ListNode
 

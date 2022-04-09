@@ -1,4 +1,4 @@
-package `add-two-numbers`
+package leetcode.`add-two-numbers`
 
 import ListNode
 import kotlin.math.pow

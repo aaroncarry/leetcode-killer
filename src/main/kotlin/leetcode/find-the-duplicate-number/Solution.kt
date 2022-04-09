@@ -1,4 +1,4 @@
-package `find-the-duplicate-number`
+package leetcode.`find-the-duplicate-number`
 
 import org.junit.Test
 

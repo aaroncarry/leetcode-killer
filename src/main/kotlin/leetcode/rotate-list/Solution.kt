@@ -1,4 +1,4 @@
-package `rotate-list`
+package leetcode.`rotate-list`
 
 import ListNode
 import org.junit.Test

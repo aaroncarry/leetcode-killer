@@ -1,4 +1,4 @@
-package `er-wei-shu-zu-zhong-de-cha-zhao-lcof`
+package leetcode.`er-wei-shu-zu-zhong-de-cha-zhao-lcof`
 
 /**
  * [
