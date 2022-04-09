@@ -18,4 +18,11 @@ class TestSort {
         BubbleSort.sort(temp)
         println(temp.joinToString(","))
     }
+
+    @Test
+    fun testInsertion() {
+        val temp = arr.clone()
+        InsertionSort.sort(temp)
+        println(temp.joinToString(","))
+    }
 }

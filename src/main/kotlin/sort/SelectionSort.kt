@@ -2,6 +2,7 @@ package sort
 
 import util.swap
 
+//不稳定性排序
 object SelectionSort {
     fun sort(arr: IntArray) {
         var minIndex = 0
