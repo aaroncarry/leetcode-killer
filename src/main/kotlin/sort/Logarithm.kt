@@ -9,6 +9,7 @@ object Logarithm {
         for (i in intArray.indices) {
             intArray[i] = ((maxValue + 1) * Math.random()).toInt() - (maxValue * Math.random()).toInt()
         }
+        println("Generate random array[${intArray.joinToString(",")}]")
         return intArray
     }
 
