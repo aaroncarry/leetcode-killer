@@ -5,6 +5,7 @@ import util.swap
 
 // 随机数下，数学期望 NLogN
 // 无随机数情况，最差情况，单调序列 O(n*n) -> 由于划分值打得很偏
+// 空间复杂度 O(N) -> O(logN)
 object QuickSort {
     fun sort(array: IntArray) {
         rec(0, array.lastIndex, array)

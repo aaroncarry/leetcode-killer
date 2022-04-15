@@ -59,4 +59,15 @@ class TestSort {
             Assert.assertTrue(array2.sameAs(array1))
         }
     }
+
+    @Test
+    fun testHeap() {
+        repeat(5) {
+            val array1 = Logarithm.generateRandomArray(50, 50)
+            val array2 = array1.clone()
+            array2.sort()
+            HeapSort.sort(array1)
+            Assert.assertTrue(array2.sameAs(array1))
+        }
+    }
 }
