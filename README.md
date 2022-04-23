@@ -1,2 +1,2 @@
 # leetcode-killer
-个人练习leetcode题的仓库，之前零零散散写的没有收录进来，那就重新开始来记录一个吧
+记录一些做过的好题，主要是用Kotlin实现，少部分用Java实现，取决于OJ支不支持Kotlin代码
