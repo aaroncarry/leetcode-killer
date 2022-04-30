@@ -6,7 +6,7 @@ class Solution {
     fun permutation(s: String): Array<String> {
         val res = ArrayList<String>()
         process(s.toCharArray(), 0, res)
-        return res.distinct().toTypedArray()
+        return res.toTypedArray()
     }
 
     private fun process(chars: CharArray, cur: Int, resKeep: ArrayList<String>) {
